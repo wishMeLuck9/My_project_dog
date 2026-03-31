@@ -7,10 +7,7 @@ public class DetectCollisionsX : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Dog"))
-        {
-            Destroy(gameObject);
-        }
+        Destroy(gameObject);
     }
 
 }
